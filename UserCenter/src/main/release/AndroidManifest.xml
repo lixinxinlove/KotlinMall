@@ -3,8 +3,10 @@
     package="com.kotlin.user">
 
     <application>
-        <activity android:name=".ui.activity.RegisterActivity"/>
-        <activity android:name=".ui.activity.TestActivity"/>
+        <activity android:name=".ui.activity.RegisterActivity" />
+        <activity android:name=".ui.activity.TestActivity" />
+        <activity android:name=".ui.activity.LoginActivity" />
+        <activity android:name=".ui.activity.ForgetPwdActivity"/>
     </application>
 
 </manifest>
