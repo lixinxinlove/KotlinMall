@@ -27,5 +27,7 @@ class LoginActivity : BaseMvpActivity<LoginPresenter>(), LoginView {
 
     override  fun startForgetPwd() {
         startActivity(Intent(this, ForgetPwdActivity::class.java))
+
+
     }
 }
